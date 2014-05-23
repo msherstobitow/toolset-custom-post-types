@@ -1,36 +1,24 @@
-=== Toolset Theme Features ===
+=== Toolset Custom Post Types ===
 Contributors: kaok
 Donate link: http://makss.ca/donate
-Tags: Toolset, theme, supports, features
+Tags: Toolset, theme, custom post types
 Requires at least: 3.4
 Tested up to: 3.8.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-**Toolset Theme Features** allows you to set theme features settings with GUI.
+**Toolset Custom Post Types** gets you full control on custom post types
 
 == Description ==
 
-**Toolset Theme Features** allows you to set theme features settings with GUI\*. Your settings will not be lost if you change your theme, you should just resave Theme Features settings on its page.
+**Toolset Custom Post Types** gets you full control on custom post types. Your settings will not be lost if you change your theme, you should just resave **Toolset Custom Post Types** settings on its page.
 
-Features supported:
-1. Post Formats
-2. Post Thumbnails
-3. Custom Background
-4. Custom Header
-5. Automatic Feed Links
-6. Semantic Markup
-7. Sidebars
-8. Navigation Menus
-9. Editor Style
-
-*\*GUI - Graphic User Interface*
 
 == Installation ==
 
-1. Upload **Toolset Theme Features** to the `/wp-content/plugins/` directory
-2. Activate **Toolset Theme Features** plugin through the 'Plugins' menu in WordPress
+1. Upload **Toolset Custom Post Types** to the `/wp-content/plugins/` directory
+2. Activate **Toolset Custom Post Types** plugin through the 'Plugins' menu in WordPress
 
 Optional:
 1. Upload **Toolset** plugin to the '/wp-content/plugins/' directory
@@ -44,9 +32,9 @@ No questions have been asked yet
 
 == Screenshots ==
 
-1. If you use **Toolset Templates** plugin, you will be able to use GUI to create your template logics scripts.
 
 == Changelog ==
+
 
 = 0.1 =
 * The very first version of plugin. 
@@ -55,4 +43,4 @@ No questions have been asked yet
 == Upgrade Notice ==
 
 = 0.1 =
-Just try to see the benefit of using Toolset Templates Logic.
+Just try to see the benefit of using Toolset Custom Post Types.
