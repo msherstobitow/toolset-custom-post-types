@@ -23,6 +23,16 @@
 	'query_var' => '1',
 	'query_var_string' => '',
 	'can_export' => '1',
+	'capability_type' => '',
+	'capabilities' => array(
+		'edit_post' => '',
+		'edit_posts' => '', 
+		'edit_others_posts' => '', 
+		'publish_posts' => '', 
+		'read_post' => '', 
+		'read_private_posts' => '', 
+		'delete_post' => '',
+	),
 	'label' => '',
 	'labels' => array (
 		'name' => '',
@@ -63,5 +73,5 @@
 		8 => '',
 		9 => '',
 		10 => ''
-	),
+	)
 );

@@ -437,6 +437,10 @@ div.CodeMirror-cursors {
     display: none;
     float: left;
 }
+.toolset_custom_post_types_cpt_input_wrapper.capability
+{
+    margin-bottom: 10px;
+}
 .toolset_custom_post_types_note
 {
     font-size: 12px;
@@ -522,7 +526,7 @@ div.CodeMirror-cursors {
     {
         float: none;
 
-        width: 102%;
+        width: 100%;
         margin: 0;
     }
 }
