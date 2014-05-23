@@ -259,7 +259,7 @@ class Toolset_Custom_Post_Types_Plugin {
 		update_option( self::$textdomain, $data );
 		$this->create_file_cache();
 
-		wp_redirect( admin_url() . '/admin.php?page=toolset-custom-post-types-edit&post-type=' . $cpt['post_type']);
+		wp_redirect( admin_url() . 'admin.php?page=toolset-custom-post-types-edit&post-type=' . $cpt['post_type']);
 		exit;
 	}
 
@@ -273,7 +273,7 @@ class Toolset_Custom_Post_Types_Plugin {
 			update_option( self::$textdomain, $data );
 			$this->create_file_cache();
 		}
-		wp_redirect( admin_url() . '/admin.php?page=toolset-custom-post-types');
+		wp_redirect( admin_url() . 'admin.php?page=toolset-custom-post-types');
 		exit;
 	}
 
@@ -390,7 +390,7 @@ class Toolset_Custom_Post_Types_Plugin {
 
 
 		// Create file with custom post types registering
-		$url = wp_nonce_url(  admin_url() . '/admin.php?page=toolset-custom-post-types-edit&post-type=' . $cpt['post_type'], self::$textdomain );
+		$url = wp_nonce_url(  admin_url() . 'admin.php?page=toolset-custom-post-types-edit&post-type=' . $cpt['post_type'], self::$textdomain );
 		if (false === ($creds = request_filesystem_credentials($url, '', false, false, null) ) ) {
 			wp_die( __( 'Sorry, the plugin can not write data to your server filesystem. ', self::$textdomain) );
 		}

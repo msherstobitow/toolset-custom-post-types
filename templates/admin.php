@@ -1,5 +1,5 @@
 <div class="wrap <?php echo self::$textdomain; ?>">
-	<h2><?php _e( 'Custom Post Types', self::$textdomain ); ?> <a class="add-new-h2" href="<?php echo admin_url(); ?>/admin.php?page=toolset-custom-post-types-edit">Add New</a></h2>	
+	<h2><?php _e( 'Custom Post Types', self::$textdomain ); ?> <a class="add-new-h2" href="<?php echo admin_url(); ?>admin.php?page=toolset-custom-post-types-edit">Add New</a></h2>	
 	<?php if ( count( $this->option() ) ) { ?>
 		<table class="wp-list-table widefat fixed pages <?php echo self::$textdomain; ?>_table">
 			<thead>
@@ -25,7 +25,7 @@
 			<tbody>
 				<?php
 					foreach ($this->option() as $post_type => $cpt) { 
-						$edit_link = admin_url() . '/admin.php?page=toolset-custom-post-types-edit&amp;post-type=' . $cpt['post_type'];
+						$edit_link = admin_url() . 'admin.php?page=toolset-custom-post-types-edit&amp;post-type=' . $cpt['post_type'];
 				?>
 					<tr class="type-page status-publish hentry iedit author-self level-0 <?php echo $cpt['enabled'] ? 'active': '';?>">
 						<td class="post-title first">
