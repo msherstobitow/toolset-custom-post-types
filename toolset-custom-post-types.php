@@ -48,7 +48,7 @@ class Toolset_Custom_Post_Types_Plugin {
 				'new_item' => array( __( 'New item', self::$textdomain ), __('<b>New item</b> text', self::$textdomain), __( 'The new item text', self::$textdomain ) ),
 				'view_item' => array( __( 'View item', self::$textdomain ), __('<b>View item</b> text', self::$textdomain), __( 'The view item text', self::$textdomain ) ),
 				'search_items' => array( __( 'Search items', self::$textdomain ),  __('<b>Search items</b> text', self::$textdomain), __( 'The view item text', self::$textdomain ) ),
-				'not_found' => array( __( 'No items found', self::$textdomain ),  __('<b>Not found in trash</b> text', self::$textdomain), __( 'The not found text', self::$textdomain ) ),
+				'not_found' => array( __( 'No items found', self::$textdomain ),  __('<b>Not found</b> text', self::$textdomain), __( 'The not found text', self::$textdomain ) ),
 				'not_found_in_trash' => array( __( 'No items found in Trash', self::$textdomain ), __('<b>Not found in trash</b> text', self::$textdomain), __( 'The not found in trash text', self::$textdomain ) ),
 				'parent_item_colon' => array( __( 'Parent Item', self::$textdomain ), __('<b>Parent item colon</b> text', self::$textdomain), __( 'The view item text', self::$textdomain ) )
 			);
@@ -500,7 +500,6 @@ function toolbox_custom_post_types_register_post_types() {
 	$path = get_stylesheet_directory() . '/toolset/custom-post-types.php';
 	if (file_exists( $path ) && is_readable( $path ) )
 		require $path;
-	//var_dump($GLOBALS['wp_post_types']);exit;
 }
 
 
